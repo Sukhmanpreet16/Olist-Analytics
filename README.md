@@ -131,13 +131,61 @@ Several of these categories also contribute significantly to **revenue leakage**
 ##  Tools & Skills Demonstrated
 
 * Advanced SQL (CTEs, window functions, NTILE, funnel analysis)
+* Python for cleaning
+* Power BI for dashboarding
 * Revenue and growth analytics
 * Funnel and conversion diagnostics
 * Risk and concentration analysis
 * Business storytelling via dashboards
 
 ---
+## Dashboard Overview
+![Executive Overview](Overview.png)
 
-##  Conclusion
+## Revenue Analysis
+![Revenue Analysis](Revenue_Analysis.png)
+
+## Funnel & Revenue Leakage
+![Funnel and Leakage](Funnel_and_leakage.png)
+
+## Cancellations & Leakage
+![Cancellations](Cancellations.png)
+
+
+## Conclusion
 
 This project demonstrates how raw transactional data can be converted into **actionable business insights**, highlighting both growth opportunities and operational risks in an e-commerce marketplace.
+
+## Project Workflow
+
+This project follows a clear end-to-end data analytics workflow, mirroring real-world analytics practices:
+
+###  Data Cleaning & Preparation (Python)
+
+* Performed initial data cleaning and preprocessing using **Python (Pandas, NumPy)**
+* Handled missing values, corrected data types, and standardized date/time columns
+* Validated data quality before loading into the analytics layer
+
+###  Data Analysis (SQL)
+
+* Used **SQL** for in-depth analysis and metric creation
+* Applied advanced SQL concepts such as:
+
+  * CTEs
+  * Window functions
+  * Aggregations and joins
+  * Decile-based analysis
+* Derived business metrics including revenue, AOV, funnel drop-offs, and cancellation impact
+
+###  Data Visualization & Storytelling (Power BI)
+
+* Built an interactive **Power BI dashboard** to present insights
+* Designed pages for:
+
+  * Executive overview
+  * Revenue and customer analysis
+  * Funnel performance and revenue leakage
+  * Cancellations and risk analysis
+* Added filters and drill-downs to enable exploratory analysis
+
+This structured flow ensures clean data, reliable analysis, and business-focused storytelling.
