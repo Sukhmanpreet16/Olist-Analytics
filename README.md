@@ -18,7 +18,7 @@ Using **SQL-based analysis** and an **interactive dashboard**, the project trans
 * Identify revenue leakage points in the order funnel
 * Diagnose cancellation patterns and high-risk segments
 * Highlight seller and category-level dependencies
-
+* Segment customers via RFM analysis to identify high-value, at-risk, and growth-potential customers
 ---
 
 ##  Key Metrics Tracked
@@ -72,7 +72,13 @@ Several of these categories also contribute significantly to **revenue leakage**
 **Key Insight:** The business relies heavily on customer acquisition, signaling **weak retention and lifetime value risk**
 
 ---
-
+## Key Insights from RFM Analysis:
+* The “Others” segment represents 28% of customers and is a high-potential growth segment that can be upsold or converted into Loyal/Champions with targeted campaigns
+* Top 54% of revenue comes from Loyal and Others segments, highlighting the importance of middle and repeat customer segments
+* 31% of customers are at risk of churn (At Risk + Lost), providing an opportunity for retention-focused campaigns
+* Champions are few but high-value, warranting VIP engagement strategies
+* RFM insights complement funnel and revenue analysis to prioritize marketing, retention, and upselling strategie
+  
 ##  Revenue Concentration Risk
 
 ### Orders
